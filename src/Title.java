@@ -13,7 +13,7 @@ public abstract class Title {
     }
 
     protected double calculatePoints() {
-
+        return 0;
     }
 
     protected double convertLiteratureType() {
