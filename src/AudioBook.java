@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public class AudioBook extends Title {
+    private int durationInMinutes;
+    private int copies;
 
-public class AudioBook {
+    public AudioBook(String title, String literatureType, int durationInMinutes, int copies) {
+        super(title, literatureType);
+        this.durationInMinutes = durationInMinutes;
+        this.copies = copies;
+    }
+
+    @Override
+    protected double calculatePoints() {
+        return super.calculatePoints();
+    }
 }
