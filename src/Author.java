@@ -8,7 +8,7 @@ public class Author {
     public Author(String name) {
         this.name = name;
     }
-    void addTitle(Title title){
+    public void addTitle(Title title){
 
     }
     double calculateRoyalties(){

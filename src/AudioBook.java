@@ -10,6 +10,8 @@ public class AudioBook extends Title {
 
     @Override
     protected double calculatePoints() {
-        return super.calculatePoints();
+        //(varighed i minutter × 0.5) × litteraturtype × eksemplarer
+        //        (192 × 0.5) × 1,7 × 140 = 22848 point
+        return (durationInMinutes*0.5)*convertLiteratureType()*copies;
     }
 }

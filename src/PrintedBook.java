@@ -10,6 +10,8 @@ public class PrintedBook extends Title{
 
     @Override
     protected double calculatePoints() {
-        return super.calculatePoints();
+        //Sider × litteraturtype × eksemplarer
+        //166 × 1,7 × 140 = 39508 point
+        return pages*convertLiteratureType()*copies;
     }
 }
