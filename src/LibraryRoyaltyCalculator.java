@@ -10,7 +10,7 @@ public class LibraryRoyaltyCalculator {
             a1.addTitle(p1);
             a1.addTitle(p2);
             a1.addTitle(ab1);
-        System.out.printf(a1.getName()+":"+"%.2f"+"kr.",a1.calculateRoyalties());
+        System.out.printf(a1.getName()+": "+"%.2f"+"kr.",a1.calculateRoyalties());
 
     }
 
