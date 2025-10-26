@@ -12,9 +12,7 @@ public abstract class Title {
         return calculatePoints()*RATE;
     }
 
-    protected double calculatePoints() {
-        return 0;
-    }
+    protected abstract double calculatePoints();
 
     protected double convertLiteratureType() {
         switch (literatureType) {
